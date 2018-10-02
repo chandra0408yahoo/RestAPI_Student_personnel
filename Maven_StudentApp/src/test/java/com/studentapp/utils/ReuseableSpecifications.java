@@ -1,7 +1,6 @@
 package com.studentapp.utils;
 
 import java.util.concurrent.TimeUnit;
-
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
@@ -12,7 +11,6 @@ public class ReuseableSpecifications {
 	
 	public static RequestSpecBuilder rspec;
 	public static RequestSpecification requestSpecification;
-	
 	public static ResponseSpecBuilder respec;
 	public static ResponseSpecification responseSpecification;
 
